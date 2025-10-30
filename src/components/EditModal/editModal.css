@@ -1,0 +1,33 @@
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 240px;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #4a90e2;
+  outline: none;
+  font-size: 14px;
+}
+
+.edit-form input:focus,
+.edit-form select:focus {
+  border-color: #1c6ed9;
+  background: rgba(255,255,255,0.5);
+}
+
+.save-btn {
+  background: #00b894;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background: #d63031;
+  color: #fff;
+  font-weight: bold;
+}
