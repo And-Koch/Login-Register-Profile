@@ -1,71 +1,104 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="120" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">👤 React LocalStorage Auth App</h1>
 
-## Available Scripts
+<p align="center">
+  Mini user-system with Register/Login, Profile, Avatar Upload, Edit Profile & LocalStorage state.
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/LocalStorage-Authentication-green" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-orange" />
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ User Registration  
+✅ Login / Logout System  
+✅ LocalStorage persistent auth  
+✅ Avatar upload (base64)  
+✅ Edit profile (name, age, gender, avatar)  
+✅ Form validation (no numbers in names, etc.)  
+✅ Real-time UI update after save  
+✅ Clean modular functions (HandleSave, HandleUpload, etc.)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Tech Stack
 
-### `npm run build`
+| Tool | Purpose |
+|------|--------|
+| React | UI & State |
+| JavaScript ES6 | Logic |
+| React Router | Navigation |
+| LocalStorage | Store users & auth state |
+| Base64 Image Handling | Avatar persistence |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+ ├─ components/
+ │   ├─ Profile/
+ │   ├─ EditModal/
+ │   └─ Functions/
+ ├─ pages/
+ │   ├─ Login.jsx
+ │   └─ Register.jsx
+ ├─ App.jsx
+ └─ main.jsx
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Screenshots (Add yours here)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Login | Profile | Edit |
+|------|--------|------|
+| 🟦 | 🟩 | 🟧 |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+/* Drop screenshots here after deployment */
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎯 To-Do / Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [ ] Protected Routes (auth guard)
+- [ ] Password change & validation
+- [ ] Dark / Light theme toggle
+- [ ] Firebase / backend integration
+- [ ] Avatar crop & preview
+- [ ] UI library integration (MUI / Tailwind)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📬 Contact
 
-### Making a Progressive Web App
+**Author:** Ando Kocharyan  
+📎 GitHub: https://github.com/And-Koch  
+⭐ If you like it — don't forget to star!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+<p align="center">
+  Made with React
+</p>
