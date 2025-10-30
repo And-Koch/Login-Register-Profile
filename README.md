@@ -122,4 +122,4 @@ GitHub: https://github.com/And-Koch
 
 ⭐ If you like this project — please give it a star!
 
-<p align="center">Made with ❤️ & React</p>
+<p align="center">Made with React</p>
