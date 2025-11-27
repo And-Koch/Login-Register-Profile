@@ -10,6 +10,7 @@ export const Register = () => {
     e.preventDefault();
 
     const form = e.target;
+    
 
     const newUser = {
       firstName: form.firstName.value,
@@ -19,7 +20,7 @@ export const Register = () => {
       login: form.login.value,
       password: form.password.value
     };
-
+    
     if (!newUser.firstName || !newUser.lastName || !newUser.age || 
         !newUser.gender || !newUser.login || !newUser.password) {
       alert("Please fill in all fields.");
@@ -56,7 +57,8 @@ export const Register = () => {
           <label htmlFor="female">Female</label>
           <input type="radio" name="gender" value="female" />
         </div>
-
+        
+        
         <input type="text" name="login" placeholder="Log-In" />
         <input type="password" name="password" placeholder="Password" />
 
